@@ -8,8 +8,7 @@ interface Props {
 
 export function Square(props: Props) {
   const scale = props.player ? "scale-100" : "scale-0";
-  const textColor =
-    props.player === "X" ? "text-yellow-200" : "text-fuchsia-300";
+  const textColor = props.player === "X" ? "text-yellow-200" : "text-fuchsia-300";
 
   return (
     <div
